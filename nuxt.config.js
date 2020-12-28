@@ -1,10 +1,4 @@
-
 export default {
-  /*
-  ** Nuxt rendering mode
-  ** See https://nuxtjs.org/api/configuration-mode
-  */
-  mode: 'spa',
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
@@ -15,7 +9,7 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Website title',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -52,8 +46,6 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
     // Doc: https://github.com/nuxt/content
     '@nuxt/content',
     [
@@ -69,11 +61,6 @@ export default {
               code: 'en',
               iso: 'en-US',
               name: 'English',
-            },
-            {
-              code: 'ca',
-              iso: 'ca-ES',
-              name: 'Català',
             },
             {
               code: 'fr',
@@ -94,11 +81,6 @@ export default {
        }
     ]
   ],
-  /*
-  ** Axios module configuration
-  ** See https://axios.nuxtjs.org/options
-  */
-  axios: {},
   /*
   ** Content module configuration
   ** See https://content.nuxtjs.org/configuration
