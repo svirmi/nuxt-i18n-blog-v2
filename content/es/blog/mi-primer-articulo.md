@@ -6,8 +6,8 @@ media: https://images.unsplash.com/photo-1592500103620-1ab8f2c666a5?ixlib=rb-1.2
 otherLanguages:
   - locale: en
     path: /blog/my-first-article
-  - locale: fr
-    path: /fr/blog/mon-premier-article
+  - locale: ru
+    path: /ru/blog/first-article-rus
 ---
 
 # Se asombroso

@@ -19,6 +19,9 @@
               {{ lang.locale }}
             </nuxt-link>
           </p>
+
+          <nuxt-link to="/">back to home page &rarr;</nuxt-link>
+
         </div>
       </header>
       <nuxt-content class="text-gray-800" :document="post" />

@@ -63,9 +63,9 @@ export default {
               name: 'English',
             },
             {
-              code: 'fr',
-              iso: 'fr-FR',
-              name: 'Français',
+              code: 'ru',
+              iso: 'ru-RU',
+              name: 'Russian',
             },
          ],
          defaultLocale: 'en',
@@ -75,7 +75,7 @@ export default {
           messages: {
             en: require('./locales/en-us.json'),
             es: require('./locales/es-es.json'),
-            fr: require('./locales/fr-fr.json'),
+            ru: require('./locales/ru-ru.json'),
           },
         },
        }

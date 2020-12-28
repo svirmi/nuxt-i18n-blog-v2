@@ -21,11 +21,11 @@
               >ES</nuxt-link
             >
           </li>
-          <li v-if="$i18n.locale !== 'fr'">
+          <li v-if="$i18n.locale !== 'ru'">
             <nuxt-link
               class="text-md ml-3 font-semibold text-gray-600"
-              :to="switchLocalePath('fr')"
-              >FR</nuxt-link
+              :to="switchLocalePath('ru')"
+              >RU</nuxt-link
             >
           </li>
         </ul>
