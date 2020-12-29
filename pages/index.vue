@@ -8,14 +8,14 @@
       <p>{{ $t('blog-description') }}</p>
       <div class="links">
         <nuxt-link to="/blog" class="btn btn-teal mr-4">
-          Blog
+          Read this blog
         </nuxt-link>
         <a
           href="https://github.com/alvarosaburido/nuxt-i18n-blog"
-          class="btn btn-indigo"
-        >
-          Github</a
-        >
+          class="btn btn-indigo">Github</a>
+        <a
+          href="https://alvarosaburido.dev/blog/multi-language-blog-with-nuxt-content"
+          class="btn btn-teal" target="_blank">Original tutorial</a>
       </div>
     </div>
   </div>
