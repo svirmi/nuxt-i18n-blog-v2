@@ -1,13 +1,9 @@
-![repository-banner.png](https://res.cloudinary.com/alvarosaburido/image/upload/v1564929632/as-readme-banner_tqdgrx.png)
-
-# nuxt-i18n-blog
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3e6d068d-6c14-4cd1-b999-c00cd7133d17/deploy-status)](https://app.netlify.com/sites/nuxt-i18n-blog/deploys)
+# nuxt-i18n-blog v.2
 
 Boilerplate for multilanguage Nuxt Blog using @nxut/content + nuxt-i18n
 
-Demo [here](https://nuxt-i18n-blog.netlify.app/)  
 Original tutorial [here](https://alvarosaburido.dev/blog/multi-language-blog-with-nuxt-content)
+Source repo [here](https://github.com/alvarosaburido/nuxt-i18n-blog)
 
 ## Build Setup
 
