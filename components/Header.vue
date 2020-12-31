@@ -7,21 +7,21 @@
       </div>
       <div class="left self-end" v-if="!isContentPage">
         <ul class="flex lang-switch justify-around">
-          <li v-if="$i18n.locale !== 'en'">
+          <li>
             <nuxt-link
               class="text-md ml-3 font-semibold text-gray-600"
               :to="switchLocalePath('en')"
               >EN</nuxt-link
             >
           </li>
-          <li v-if="$i18n.locale !== 'es'">
+          <li>
             <nuxt-link
               class="text-md ml-3 font-semibold text-gray-600"
               :to="switchLocalePath('es')"
               >ES</nuxt-link
             >
           </li>
-          <li v-if="$i18n.locale !== 'ru'">
+          <li>
             <nuxt-link
               class="text-md ml-3 font-semibold text-gray-600"
               :to="switchLocalePath('ru')"
@@ -52,4 +52,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+  a.nuxt-link-active {
+    color: brown;
+  }
+</style>
